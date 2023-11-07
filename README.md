@@ -1,2 +1,0 @@
-# Bradspel
- Projekt 3

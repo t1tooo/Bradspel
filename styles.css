@@ -1,23 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+section {
+  display: block;
+}
+
 body {
   margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  display: flex;
+  background-size: cover;
+  padding: 10;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   position: relative;
 }
 
-.content {
-  position: relative;
+#home {
+  background-color: aquamarine;
+  background-size: cover;
+  width: 100%;
+}
+
+#register {
+  background-size: cover;
+  width: 100%;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+html {
+  background-color: aquamarine;
+  background-size: auto;
 }
 
 h1 {
   text-align: center;
+  font-family: 'Bowlby One', sans-serif;
 }
 
 p {
   text-align: center;
+  font-family: 'Pixelify Sans';
 }
