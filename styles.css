@@ -1,50 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-section {
-  display: block;
-}
+
 
 body {
-  margin: 0;
-  background-size: cover;
-  padding: 10;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  min-height: 100vh;
-  position: relative;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #BDBDBD
 }
 
-#home {
-  background-color: aquamarine;
-  background-size: cover;
-  width: 100%;
+#game-container {
+  text-align: center;
 }
 
-#register {
-  background-size: cover;
-  width: 100%;
-}
-
-
-.center {
+.clickable-text {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-}
-
-html {
-  background-color: aquamarine;
-  background-size: auto;
+  margin: 10px;
+  padding: 15px;
+  font-size: 38px;
+  font-family: "Arapey";
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 h1 {
-  text-align: center;
-  font-family: 'Bowlby One', sans-serif;
+  font-size: 55px;
+  font-family: "Fredericka the Great";
 }
 
-p {
-  text-align: center;
-  font-family: 'Pixelify Sans';
+.clickable-text:hover {
+  color: white
 }
