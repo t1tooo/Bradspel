@@ -18,8 +18,8 @@ function displayMatchHistory() {
     let row = matchHistoryTable.insertRow();
     row.insertCell(0).textContent = match.playerX;
     row.insertCell(1).textContent = match.playerO;
-    row.insertCell(2).textContent = match.winner;
-    row.insertCell(3).textContent = match.moveCount;
+    row.insertCell(2).textContent = match.moveCount;
+    row.insertCell(3).textContent = match.winner;
     row.insertCell(4).textContent = match.timestamp;
 
   });

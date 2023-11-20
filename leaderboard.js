@@ -23,8 +23,6 @@ function displayPlayerResults() {
     let row = playersResultsTable.insertRow();
     let nameCell = row.insertCell(0);
     let scoreCell = row.insertCell(1);
-    nameCell.textContent = player.name;
-    scoreCell.textContent = player.score;
 
     nameCell.style.paddingRight = '20vh';
     nameCell.style.marginBottom = '20vh';

@@ -20,8 +20,8 @@ function savePlayerBtn() {
     return;
   }
 
-  playerXName = playerXName.toUpperCase().trim();
-  playerOName = playerOName.toUpperCase().trim();
+  playerXName = playerXName;
+  playerOName = playerOName;
 
   let existingData = localStorage.getItem('users');
 
