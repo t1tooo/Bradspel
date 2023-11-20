@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  background-color: #BDBDBD;
 }
 
 .board {
@@ -27,7 +28,7 @@ body {
 .cell {
   width: var(--cell-size);
   height: var(--cell-size);
-  border: 1px solid black;
+  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +70,7 @@ body {
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
 .board.circle .cell:not(.x):not(.circle):hover::before {
-  background-color: lightgrey;
+  background-color: orange;
 }
 
 .cell.x::before,
@@ -111,7 +112,7 @@ body {
 .board.circle .cell:not(.x):not(.circle):hover::after {
   width: calc(var(--mark-size) * .7);
   height: calc(var(--mark-size) * .7);
-  background-color: white;
+  background-color: #BDBDBD;
 }
 
 .winning-message {
@@ -147,25 +148,26 @@ body {
   display: flex;
 }
 
-.round-counter {
+.cell.x.lastSelected::before,
+.cell.x.lastSelected::after,
+.cell.circle.lastSelected::before {
+  background-color: rgb(214, 64, 69);
+}
+
+nav {
+  text-align: center;
+  font-family: 'MavenPro', sans-serif;
   font-size: 30px;
 }
 
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+a:link {
+  color: rgb(67, 160, 247);
+  text-decoration: none;
 }
 
-.clickable-text {
-  display: block;
-  margin: 10px;
-  padding: 15px;
-  font-size: 30px;
-  font-family: "Arapey";
-  cursor: pointer;
-  color: black;
-  transition: color 0.3s ease;
+
+a:visited {
+  color: rgb(67, 160, 247);
   text-decoration: none;
 }

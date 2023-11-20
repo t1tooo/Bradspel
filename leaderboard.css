@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+nav {
+  text-align: center;
+  font-size: 30px;
+}
+
+body {
+  background-color: #BDBDBD;
+}
+
+a:link {
+  font-family: "Arapey";
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(119, 119, 119);
+}
+
+a:visited {
+  font-family: "Arapey";
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+table {
+  color: rgb(0, 0, 0);
+  font-size: 4.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+  font-family: "Arapey";
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: "Fredericka the Great";
+  color: #1b1b1b;
+  text-align: center;
+}
