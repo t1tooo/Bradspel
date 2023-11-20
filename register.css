@@ -80,6 +80,7 @@ button {
 a:link {
   font-family: "Arapey";
   color: #1b1b1b;
+  font-size: 30px;
   margin-top: auto;
   text-decoration: none;
 }
@@ -96,5 +97,6 @@ nav {
 a:visited {
   font-family: "Arapey";
   color: #1b1b1b;
+  font-size: 30px;
   text-decoration: none;
 }
