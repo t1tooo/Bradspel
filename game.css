@@ -69,7 +69,7 @@ body {
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
 .board.circle .cell:not(.x):not(.circle):hover::before {
-  background-color: green;
+  background-color: lightgrey;
 }
 
 .cell.x::before,
@@ -129,18 +129,6 @@ body {
   flex-direction: column;
 }
 
-.round-counter {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-#roundNumber {
-  font-weight: bold;
-  color: #007bff;
-  /* You can change the color as desired */
-}
-
 .winning-message button {
   font-size: 3rem;
   background-color: white;
@@ -159,49 +147,25 @@ body {
   display: flex;
 }
 
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
-* {
-  font-family: Raleway;
+.round-counter {
+  font-size: 30px;
 }
 
-.side-links {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.side-link {
+.center {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 180px;
-  padding: 10px 0;
-  border-radius: 10px;
 }
 
-.side-link-youtube {
-  background-color: red;
-}
-
-.side-link-twitter {
-  background-color: #1DA1F2;
-}
-
-.side-link-github {
-  background-color: #6e5494;
-}
-
-.side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
-}
-
-.side-link-icon {
-  color: white;
+.clickable-text {
+  display: block;
+  margin: 10px;
+  padding: 15px;
   font-size: 30px;
+  font-family: "Arapey";
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+  text-decoration: none;
 }
