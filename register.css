@@ -4,6 +4,7 @@
 body {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -29,9 +30,8 @@ h1 {
 
 h2 {
   font-family: "Arapey";
-  margin-right: 10px;
-  width: 110px;
-  order: -1;
+  text-align: center;
+
 }
 
 .player-container {
@@ -43,11 +43,10 @@ h2 {
 
 input {
   flex: 1;
-  font-family: 'MavenPro', sans-serif;
-  font-size: xx-large;
+  font-family: "Arapey";
+  font-size: 30px;
   text-align: center;
   width: 10vh;
-  margin-left: 10px;
 }
 
 button {
@@ -61,9 +60,6 @@ button {
   margin-top: 10px;
 }
 
-#homepage {
-  text-align: center;
-}
 
 .clickable-text {
   display: block;
@@ -79,4 +75,26 @@ button {
 
 .clickable-text:hover {
   color: white;
+}
+
+a:link {
+  font-family: "Arapey";
+  color: #1b1b1b;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(119, 119, 119);
+}
+
+nav {
+  text-align: center;
+  font-size: 30px;
+}
+
+a:visited {
+  font-family: "Arapey";
+  color: #1b1b1b;
+  text-decoration: none;
 }
